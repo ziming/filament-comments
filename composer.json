@@ -38,8 +38,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require-dev": {
-        "filament/upgrade": "^4.0"
-    }
+    "prefer-stable": true
 }
