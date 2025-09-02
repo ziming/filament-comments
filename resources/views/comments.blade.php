@@ -58,7 +58,7 @@
             @endforeach
         </div>
     @else
-        <div class="flex-grow flex flex-col items-center justify-center space-y-4">
+        <div class="flex h-full flex-col items-center justify-center space-y-4">
             <x-filament::icon
                 icon="{{ config('filament-comments.icons.empty') }}"
                 class="h-12 w-12 text-gray-400 dark:text-gray-500"
