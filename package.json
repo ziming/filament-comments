@@ -3,8 +3,7 @@
     "type": "module",
     "scripts": {
         "dev:styles": "npx @tailwindcss/cli -i resources/css/index.css -o resources/dist/filament-comments.css --watch",
-        "build:styles": "npx @tailwindcss/cli -i resources/css/index.css -o resources/dist/filament-comments.css --minify && npm run purge",
-        "purge": "filament-purge -i resources/dist/filament-comments.css -o resources/dist/filament-comments.css -v 3.x",
+        "build:styles": "npx @tailwindcss/cli -i resources/css/index.css -o resources/dist/filament-comments.css --minify",
         "dev": "npm-run-all --parallel dev:*",
         "build": "npm-run-all build:*"
     },
